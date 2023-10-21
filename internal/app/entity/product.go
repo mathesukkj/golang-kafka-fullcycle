@@ -15,7 +15,7 @@ type Product struct {
 	Price float32
 }
 
-func New(name string, price float32) *Product {
+func NewProduct(name string, price float32) *Product {
 	return &Product{
 		ID:    uuid.New().String(),
 		Name:  name,

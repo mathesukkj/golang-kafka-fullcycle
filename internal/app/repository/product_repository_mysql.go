@@ -9,7 +9,7 @@ type ProductRepositoryMysql struct {
 	DB *sql.DB
 }
 
-func New(db *sql.DB) *ProductRepositoryMysql {
+func NewProductRepositoryMySql(db *sql.DB) *ProductRepositoryMysql {
 	return &ProductRepositoryMysql{DB: db}
 }
 
